@@ -1,4 +1,3 @@
-
 with users as (
     select * from {{ ref('slv_sql_server_dbo__users') }}
 ),
