@@ -122,3 +122,7 @@ snapshots:
     +transient: false
 
 
+# Resultados de tests (store_failures): también fuera de Bronze
+data_tests:
+  curso_data_engineering:
+    +database: "{{ env_var('DBT_SILVER_DB') }}"
