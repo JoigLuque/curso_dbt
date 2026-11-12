@@ -18,6 +18,7 @@ final as (
         , order_total_usd
         , order_status
         , date_load
+        , prueba
     from orders
 )
 
