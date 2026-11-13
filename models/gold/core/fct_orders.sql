@@ -18,7 +18,6 @@ final as (
         , order_total_usd
         , order_status
         , date_load
-        , pruebOS
     from orders
 )
 
